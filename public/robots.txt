@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+# Do not block /api/public/: search engines need it to render the pages.
+Disallow: /admin
+Disallow: /api/admin/
+Disallow: /api/auth/
+Disallow: /search
+
+Sitemap: https://govtjob.bd/sitemap.xml
